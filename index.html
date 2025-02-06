@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Remover Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Background Remover Tool</h1>
+    <p>Upload any image to remove the background and download it in PNG format.</p>
+    <input type="file" id="imageUpload" accept="image/*">
+    <button id="removeBgBtn">Remove Background</button>
+    <div id="result">
+      <img id="outputImage" src="" alt="Processed Image">
+      <a id="downloadLink" href="#" download="" style="display: none;">Download PNG</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
